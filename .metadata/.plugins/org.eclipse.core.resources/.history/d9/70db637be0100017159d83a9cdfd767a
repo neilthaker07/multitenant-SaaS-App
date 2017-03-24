@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+<br>
+<div data-ng-app="MyApp">
+		User Name <input type="text" data-ng-model="data.username" action="LoginServlet" method = "post"  required = "required"/>
+		<br>
+		<br>
+		<input type="SUBMIT" />
+	<h1>{{data.username}} on AWS</h1>
+</div>
+</body>
+</html>

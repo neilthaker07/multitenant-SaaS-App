@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+<br>
+	<form name="tenant_login" action="LoginServlet" method = "post" id="tenant_login">
+		User Name <input type="text" required = "required"/>
+		<br>
+		<br>
+		<input type="SUBMIT" />
+	</form>
+	
+	
+</body>
+</html>

@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet
 		String a = loginPageImpl.verifyUser(loginPage);
 		if(a != null)
 		{
-			response.sendRedirect("LoginPage.html");//("Tenant.jsp");
+			response.sendRedirect("Tenant.jsp");
 			return;
 		}
 	}
